@@ -1,0 +1,52 @@
+/* Author: Pawan */
+/* Custom Styles Here */
+:root {
+  --theme_color_primary: #C197D2;
+}
+
+/* Utility */
+body {
+  background-image: url(../img/bg.jpg);
+  background-image: url(../img/bg.svg);
+  background-size: cover;
+  font-size: 16px;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Social Icons */
+.fa-square-facebook {
+  color: #3b5998;
+}
+
+.fa-square-twitter {
+  color: #00acee;
+}
+
+.fa-square-instagram {
+  color: #f09433;
+}
+
+.social_icons .btn:hover {
+  border-color: transparent;
+}
+
+/* Navbar */
+.only-top-navbar {
+  background-color: var(--theme_color_primary) !important;
+}
+
+/* Card */
+.gradient-card {
+  background: linear-gradient(90deg, #C197D2 0%, #f8a8c5 100%);
+}
+
+/* Select Element */
+.select-box select {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.img-200 {
+  height: 200px;
+}
